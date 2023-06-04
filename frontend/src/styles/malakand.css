@@ -3,9 +3,6 @@
   }
   
   .button {
-    display: grid;
-    align-items: center;
-    justify-content: center;
     margin-top: 10px;
     background-color: #0a0a23;
     color: #fff;
@@ -14,7 +11,7 @@
     padding: 15px;
     min-height: 50px;
     min-width: 400px;
-    transform: translateX(110%);
+
   }
   
   /* Responsive styles */

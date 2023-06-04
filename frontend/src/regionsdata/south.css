@@ -1,0 +1,11 @@
+.south{
+    min-height: 100vh;
+}
+.bg-mine{
+    background-color: #71c064;
+    min-height: 170vh;
+}
+img{
+    overflow: hidden;
+    min-height: 30vh;
+}

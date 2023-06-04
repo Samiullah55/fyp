@@ -21,9 +21,6 @@ function Mardan() {
                 <p>After</p>
                 <img className="img-fluid rounded shadow-sm" src={mardanafter} alt="" />
             </div>
-            <div className="col-4 m-2">
-                <a href='https://code.earthengine.google.com/a22f7f0c40bc3dee46be9bb328c86fd6?hideCode=true' target='__blank' className="btn btn-primary">Checkout on EarthEngine</a>
-            </div>
         </div>
         <div className="row">
         <h2>Random Forest Results</h2>

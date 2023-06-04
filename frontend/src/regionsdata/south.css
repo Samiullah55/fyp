@@ -1,9 +1,9 @@
 .south{
-    min-height: 100vh;
+    min-height: 120vh;
 }
 .bg-mine{
     background-color: #71c064;
-    min-height: 170vh;
+    min-height: 200vh;
 }
 img{
     overflow: hidden;

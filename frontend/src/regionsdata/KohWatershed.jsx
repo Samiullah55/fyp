@@ -1,6 +1,6 @@
 import React from 'react';
-import peshawarafter from "../regionsdata/images/Mardan_after.png";
-import peshawarbefore from "../regionsdata/images/Mardan_before.png";
+import waterafter from "../regionsdata/images/Watershed_After.png";
+import waterbefore from "../regionsdata/images/Watershed_Before.png";
 
 function KohWatershed() {
   return (
@@ -14,15 +14,12 @@ function KohWatershed() {
         <div className="row d-flex justify-content-center align-content-center">
             <div className="col-lg-5">
                 <p>Before</p>
-                <img className="img-fluid rounded" src={peshawarbefore} alt="" />
+                <img className="img-fluid rounded" src={waterbefore} alt="" />
                 
             </div>
             <div className="col-lg-5">
                 <p>After</p>
-                <img className="img-fluid rounded" src={peshawarafter} alt="" />
-            </div>
-            <div className="col-4 m-2">
-                <a href='https://code.earthengine.google.com/a22f7f0c40bc3dee46be9bb328c86fd6?hideCode=true' target='__blank' className="btn btn-primary">Checkout on EarthEngine</a>
+                <img className="img-fluid rounded" src={waterafter} alt="" />
             </div>
         </div>
         <div className="row">
@@ -34,11 +31,11 @@ function KohWatershed() {
         </tr>
         <tr>
             <td>Non-Trees Points/Pixels</td>
-            <td>257 pts and 6 polygons</td>
+            <td>241 pts</td>
         </tr>
         <tr>
             <td>Trees Points/Pixels</td>
-            <td>266 pts</td>
+            <td>251 pts</td>
         </tr>
         <tr>
             <td>Timestamp</td>
@@ -47,36 +44,36 @@ function KohWatershed() {
         <tr>
             <td>Training Error Matrix</td>
             <td>
-            Non-Trees: [201,1] <br />
-            Trees: [4,205]
+            Non-Trees: [102,2] <br />
+            Trees: [4,152]
             </td>
         </tr>
         <tr>
             <td>Training Overall Accuracy</td>
-            <td>98.78% (0.9878)</td>
+            <td>97.78% (0.9778)</td>
         </tr>
         <tr>
             <td>Testing Error Eatrix</td>
             <td>
-            Non-Trees: [60,4] <br />
-            Trees: [2,55]
+            Non-Trees: [32,0] <br />
+            Trees: [3,42]
             </td>
         </tr>
         <tr>
             <td>Testing Overall Accuracy</td>
-            <td>95.04% (0.9504)</td>
+            <td>96.04% (0.9604)</td>
         </tr>
         <tr>
             <td>Polygon Area</td>
-            <td>167.99 km^2</td>
+            <td>69.99 km^2</td>
         </tr>
         <tr>
             <td>Area of Non-Trees</td>
-            <td>84.0 km^2</td>
+            <td>31.0 km^2</td>
         </tr>
         <tr>
             <td>Area of Trees</td>
-            <td>83.86 km^2</td>
+            <td>37.86 km^2</td>
         </tr>
         </table>
         </div>

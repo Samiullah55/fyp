@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "../styles/Formm.css";
 import Submit from "./Submit";
@@ -40,6 +40,13 @@ function Form() {
   const [form, setForm] = useState({});
   const [submitted, setSubmitted] = useState(false);
 
+  useEffect(() => {
+    if (submitted) {
+      setForm({});
+      setSubmitted(false);
+    }
+  }, [submitted]);
+
   const handleInputs = (e) => {
     console.log(e.target.value, e.target.name);
     setForm({
@@ -59,7 +66,6 @@ function Form() {
         },
       }
     );
-    const data = await response.json();
     setTimeout(() => {
       setSubmitted(true);
     }, 1000);
